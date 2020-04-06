@@ -1,0 +1,39 @@
+.datacontainer {
+    background-image: url("../images/data.png");
+}
+.internationalcontainer{
+    background-image: url("../images/inews.jpg");
+}
+.bookscontainer{
+    background-image: url("../images/books.jpg");
+}
+.pfinancecontainer{
+    background-image: url("../images/pfinance.png");
+}
+.courtroomcontainer{
+    background-image: url("../images/courtroom.jpg");
+}
+.travelcontainer{
+    background-image: url("../images/travel.jpg");
+}
+.musiccontainer{
+    background-image: url("../images/mus.jpg");
+}
+.moviecontainer{
+    background-image: url("../images/movie.jpg");
+}
+.entertainmentcontainer{
+    background-image: url("../images/Entertainment.jpg");
+}
+.col-sm{
+    height: 150px;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.datacontainer, .internationalcontainer, .bookscontainer, .pfinancecontainer, .courtroomcontainer, .travelcontainer, .musiccontainer, .moviecontainer, .entertainmentcontainer{
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 150px;
+}
