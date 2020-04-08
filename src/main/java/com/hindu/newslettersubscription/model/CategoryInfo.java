@@ -11,4 +11,5 @@ public class CategoryInfo {
     private byte categoryImage;
     private String categoryType;
     private String categoryDetails;
+    private boolean susbsciptionStatus;
 }

@@ -2,12 +2,13 @@ package com.hindu.newslettersubscription.serviceimpl;
 
 import com.hindu.newslettersubscription.model.Category;
 import com.hindu.newslettersubscription.service.Subscriber;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
-
+@Service
 public class PubSubService {
 
     Queue<Category> newsLetterQueue = new LinkedList<Category>();
